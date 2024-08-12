@@ -15,3 +15,21 @@ variable "aws_secret_key" {
   type        = string
   sensitive   = true
 }
+
+variable "db_host" {
+  description = "The database host"
+  type        = string
+  default     = "mydb.amazonaws.com"
+}
+
+variable "db_user" {
+  description = "The database user"
+  type        = string
+  default     = "admin"
+}
+
+variable "db_pass" {
+  description = "The database password"
+  type        = string
+  default     = "password"
+}

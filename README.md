@@ -36,3 +36,5 @@ resource "aws_ssm_parameter" "foo" {
   type  = "String" # Ou "SecureString" se a variável for sensível
   value = "true" # Ou outro valor apropriado
 }
+```
+<img width="878" alt="image" src="https://github.com/user-attachments/assets/756317f0-4fee-4d9f-abbb-fa9eb4085c19">

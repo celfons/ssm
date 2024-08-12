@@ -19,5 +19,5 @@ variable "aws_secret_key" {
 variable "parameter_store_name" {
   description = "Parameter Store Name"
   type        = string
-  default   = "/myapp/"
+  default   = "/myapp"
 }
